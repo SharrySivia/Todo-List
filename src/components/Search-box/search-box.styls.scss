@@ -1,0 +1,24 @@
+@import '../../globals.scss';
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    background-color: $color-secondary-light;
+    padding: 0.65rem 1rem;
+    border-radius: 50px;
+    
+    .input{
+        font-size: 15px;
+        width: 90%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: $color-light;
+    }
+
+    .search-icon{
+        width: 20px;
+    }
+}

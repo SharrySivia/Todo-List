@@ -1,0 +1,14 @@
+@import '../../globals.scss';
+
+.CircularProgressbar-path {
+  stroke: $color-primary;
+}
+.CircularProgressbar-trail {
+  stroke: $color-primary-light;
+}
+.CircularProgressbar-text {
+  fill: $color-primary-light;
+}
+.CircularProgressbar-background {
+  fill: $color-secondary;
+}
